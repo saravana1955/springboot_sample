@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/product-definition-service-0.0.1-SNAPSHOT.jar /app/product-definition-service.jar
 
 # Expose the port that your application will run on
-EXPOSE 3000
+EXPOSE 8080
 
 # Command to run your application
 CMD ["java", "-jar", "product-definition-service.jar"]
